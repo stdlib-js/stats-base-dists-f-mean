@@ -67,7 +67,7 @@ The [expected value][expected-value] for a [F][f-distribution] random variable w
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@v0.2.2-esm/index.mjs';
 ```
 
 #### mean( d1, d2 )
@@ -143,7 +143,7 @@ v = mean( 1.0, -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@esm/index.mjs';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@v0.2.2-esm/index.mjs';
 
 var d1;
 var d2;
