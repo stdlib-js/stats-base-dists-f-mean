@@ -2,6 +2,62 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-12-19)
+
+<section class="features">
+
+### Features
+
+-   [`b283652`](https://github.com/stdlib-js/stdlib/commit/b2836521feb83b741d0190d7600f297f0379851f) - add C implementation for `stats/base/dists/f/mean` [(#4033)](https://github.com/stdlib-js/stdlib/pull/4033)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3597](https://github.com/stdlib-js/stdlib/issues/3597)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b283652`](https://github.com/stdlib-js/stdlib/commit/b2836521feb83b741d0190d7600f297f0379851f) - **feat:** add C implementation for `stats/base/dists/f/mean` [(#4033)](https://github.com/stdlib-js/stdlib/pull/4033) _(by Vivek maurya)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Vivek maurya
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
