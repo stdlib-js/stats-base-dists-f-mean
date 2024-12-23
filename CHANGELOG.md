@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-19)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`0ba282b`](https://github.com/stdlib-js/stdlib/commit/0ba282b89c384f06bbe3ff8ecd71982f05209606) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b283652`](https://github.com/stdlib-js/stdlib/commit/b2836521feb83b741d0190d7600f297f0379851f) - **feat:** add C implementation for `stats/base/dists/f/mean` [(#4033)](https://github.com/stdlib-js/stdlib/pull/4033) _(by Vivek maurya)_
 
 </details>
@@ -46,8 +47,9 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Philipp Burckhardt
 -   Vivek maurya
 
 </section>
