@@ -255,8 +255,8 @@ int main( void ) {
     int i;
 
     for ( i = 0; i < 25; i++ ) {
-        d1 = random_uniform( 0.0, 10.0 ) + STDLIB_CONSTANT_FLOAT64_EPS;
-        d2 = random_uniform( 0.0, 10.0 ) + STDLIB_CONSTANT_FLOAT64_EPS;
+        d1 = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
+        d2 = random_uniform( STDLIB_CONSTANT_FLOAT64_EPS, 10.0 );
         y = stdlib_base_dists_f_mean( d1, d2 );
         printf( "d1: %lf, d2: %lf, E(X;d1,d2): %lf\n", d1, d2, y );
     }
@@ -313,7 +313,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
