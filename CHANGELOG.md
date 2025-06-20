@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -15,6 +15,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`9256312`](https://github.com/stdlib-js/stdlib/commit/9256312621508d17a4bddb161991fd02c778c4e5) - remove unused `eps` dependency from `f/mean` manifest
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -34,6 +44,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
+-   [`9256312`](https://github.com/stdlib-js/stdlib/commit/9256312621508d17a4bddb161991fd02c778c4e5) - **fix:** remove unused `eps` dependency from `f/mean` manifest _(by Philipp Burckhardt)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`6335415`](https://github.com/stdlib-js/stdlib/commit/633541558ed3c1707e9aaa7874ab76043ff329af) - **bench:** refactor random number generation in `stats/base/dists/f` [(#4921)](https://github.com/stdlib-js/stdlib/pull/4921) _(by Karan Anand, stdlib-bot)_
 -   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
