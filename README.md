@@ -67,7 +67,7 @@ The [expected value][expected-value] for a [F][f-distribution] random variable w
 ## Usage
 
 ```javascript
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@v0.3.0-deno/mod.js';
 ```
 
 #### mean( d1, d2 )
@@ -139,7 +139,7 @@ v = mean( 1.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@deno/mod.js';
+import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-mean@v0.3.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
